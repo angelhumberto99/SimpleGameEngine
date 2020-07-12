@@ -1,6 +1,6 @@
 #include "Window.h"
 
-Window::Window(){}
+Window::Window() : window(nullptr), renderer(nullptr){}
 Window::~Window(){}
 
 //Setters
